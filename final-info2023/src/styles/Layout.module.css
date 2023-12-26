@@ -1,0 +1,36 @@
+.link nav{
+    background: #5bb5fa;
+    height: 80px;
+    width: 100%;
+  }
+
+.link ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.link ul li a{
+    text-decoration: none;
+    color:  #b1b1b1;
+    font-weight: bold;
+}
+
+.link ul li a:hover{
+
+    color: #fff;
+}
+
+
+.link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+
+.link ul li a.active{
+    color:rgb(117, 233, 194)
+}
